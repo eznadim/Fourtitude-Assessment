@@ -1,0 +1,72 @@
+2025-01-10 21:59:31,288 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2025-01-10 21:59:31,296 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5267
+2025-01-10 21:59:31,297 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-01-10 21:59:31,298 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-01-10 21:59:31,298 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\ez\Work\Fourtitude.Asia\Question1\TransactionAPI\TransactionAPI
+2025-01-10 21:59:31,611 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - - -
+2025-01-10 21:59:31,719 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:59:31,795 [13] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 500 - text/html;+charset=utf-8 186.8549ms
+2025-01-10 21:59:31,807 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - -
+2025-01-10 21:59:31,807 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 21:59:31,815 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript;+charset=utf-8 8.6925ms
+2025-01-10 21:59:31,852 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 45.9882ms
+2025-01-10 21:59:31,915 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/favicon.ico - - -
+2025-01-10 21:59:31,916 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 21:59:31,919 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/favicon.ico - 500 - text/plain;+charset=utf-8 4.4919ms
+2025-01-10 22:00:12,974 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2025-01-10 22:00:12,980 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5267
+2025-01-10 22:00:12,981 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-01-10 22:00:12,981 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-01-10 22:00:12,981 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\ez\Work\Fourtitude.Asia\Question1\TransactionAPI\TransactionAPI
+2025-01-10 22:00:15,729 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - - -
+2025-01-10 22:00:15,823 [12] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 22:00:15,889 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 500 - text/html;+charset=utf-8 161.3459ms
+2025-01-10 22:00:15,902 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - -
+2025-01-10 22:00:15,902 [12] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 22:00:15,914 [5] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript;+charset=utf-8 12.0995ms
+2025-01-10 22:00:15,942 [5] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.4733ms
+2025-01-10 22:00:16,125 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/favicon.ico - - -
+2025-01-10 22:00:16,127 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 22:00:16,131 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/favicon.ico - 500 - text/plain;+charset=utf-8 7.0861ms
+2025-01-10 22:02:23,461 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2025-01-10 22:02:23,466 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5267
+2025-01-10 22:02:23,467 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-01-10 22:02:23,468 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-01-10 22:02:23,468 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\ez\Work\Fourtitude.Asia\Question1\TransactionAPI\TransactionAPI
+2025-01-10 22:02:24,989 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - - -
+2025-01-10 22:02:25,165 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 - text/html;charset=utf-8 179.9669ms
+2025-01-10 22:02:25,178 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 22:02:25,182 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - -
+2025-01-10 22:02:25,188 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript;+charset=utf-8 9.8689ms
+2025-01-10 22:02:25,225 [11] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 43.4622ms
+2025-01-10 22:02:25,288 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - -
+2025-01-10 22:02:25,340 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 51.9619ms
+2025-01-10 22:26:42,661 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7257
+2025-01-10 22:26:42,667 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5267
+2025-01-10 22:26:42,669 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-01-10 22:26:42,670 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-01-10 22:26:42,670 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\ez\Work\Fourtitude.Asia\Question1\TransactionAPI\TransactionAPI
+2025-01-10 22:26:43,103 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - - -
+2025-01-10 22:26:43,273 [7] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 - text/html;charset=utf-8 174.1634ms
+2025-01-10 22:26:43,285 [10] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 22:26:43,294 [5] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript;+charset=utf-8 8.7410ms
+2025-01-10 22:26:43,295 [9] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - -
+2025-01-10 22:26:43,331 [5] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 36.1907ms
+2025-01-10 22:26:43,392 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - -
+2025-01-10 22:26:43,449 [14] INFO  Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 56.8509ms
